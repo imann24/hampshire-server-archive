@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2015, 11:09:28 PM
+    Author     : imann24
+*/
+body {
+    font-family: sans-serif;
+}
+
+iframe {
+    margin: 3em 0;
+    border: 1em #c9bbbb solid;
+}
+
+table {
+    margin: auto;
+    padding: 2em;
+    width: 30em;
+    font-size: 2em;
+}
+
+td {
+    border: #967676 0.1em solid;
+    color: white;
+    background: #c9bbbb;
+    padding: 1em;
+}
+
+td a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    background: #c9bbbb;
+    width: 6em;
+    padding: 0.25em 0.5em;
+    font-size: 1.5em;
+    float: left;
+}
+
+.header:hover {
+   background: #967676;
+}
+a .header {
+    color: white;
+    text-decoration: none;
+}
+.nav-bar {
+    width: 75em;
+    margin: auto;
+}
+
+.concept-art {
+    width: 45em;
+    margin: 2em;
+    border: 1em #c9bbbb solid;
+}
+
+.document {
+    width: 50em;
+    height: 95em;
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+#active-link {
+    background: #967676;
+}
+
+.embedly-card {
+    position: absolute;
+    width: 75em;
+    top: 5em;
+    margin: auto;
+}

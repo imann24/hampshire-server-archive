@@ -1,0 +1,168 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: ralewayLight;
+}
+
+h2 {
+    font-family: ralewayLight;
+    border: 1px solid white;
+}
+
+h2:hover {
+    color: #7a8af4;
+}
+
+h3 {
+    font-family: ralewayLight;
+    font-size: 1em;
+}
+p {
+    font-family: avenir;
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+.LinkButton {
+	
+	color: white;
+	background-color: #5D68BB;	
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	padding: 1.25em;
+        font-size: 2vw;
+        overflow: hidden;
+	text-align: center;
+        -webkit-transition: height 0.5s;
+        transition: height 0.5s;
+        
+}
+
+.LinkButton:hover {
+    background-color: #394284;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 30%;
+}
+
+.LinkButton h1 {
+    
+}
+
+.Navbar img {
+    -webkit-transition: width 0.5s, float 0.5s;
+    transition: width 0.5s, float 0.5s;
+    width: 5vw;
+    float: left;
+    margin-left: 0.5em;
+}
+
+.Navbar img:hover {
+    width: 6vw;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+.ProjectIcon {
+    width: 3em;
+}
+
+.PDF {
+    text-align: center;
+}
+
+.PDF img {
+    margin-top: 5em;
+    width: 15em;
+}
+
+.PDF img:hover {
+    -webkit-filter: grayscale(25%); 
+    filter: grayscale(25%);
+}
+
+#Resume {
+    top: 0;
+    left: 0;
+    border-radius: 0 0 5em 0;
+}
+
+#SocialLinks {
+    height: 25%;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 5em;
+    background-color: #5D68BB;	
+}
+
+#AllProjects {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 5em 0 0;
+}
+
+#Coursework {
+    bottom: 0;
+    right: 0;
+    border-radius: 5em 0 0 0;
+}
+
+#TopCenterPanel {
+    margin: -10em auto 0 auto;
+    width: 20em;
+    height: 10em;
+    background-color: #5D68BB;
+    border-radius: 0 0 5em 5em;
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+}
+
+#Content {
+	margin: 5em;
+	padding: 2em;
+}
+
+#PageTitle {
+    padding-top: 1.25em;
+    text-align: center;
+    font-family: avenir;
+    font-size: 8vw;
+}
+
+#ProjectList {
+    overflow: scroll;
+    height: 35em;
+    overflow-y: scroll;
+
+}
+
+#ProjectList a:visited {
+    color: black;
+}
+
+@font-face {
+    font-family: ralewayLight;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: avenir;
+    src: url(../fonts/Avenir.ttc);
+}

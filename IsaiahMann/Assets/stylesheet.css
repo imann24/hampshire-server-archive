@@ -1,0 +1,229 @@
+header {
+	font-size: 5em;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: "Avenir Next", Avenir, sans-serif;
+	position: relative;
+}
+
+header a {
+	font-size: 0.5em;
+}
+
+p {
+	font-family: "Avenir Light", Avenir, sans-serif;
+}
+
+a {
+	color: #2AC9DE;
+	font-variant: small-caps;
+}
+
+li {
+	font-family: "Avenir Light", Avenir, sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+	margin-left: 45%;
+}
+
+h1 {
+	font-family:  "Din Condensed Bold", DIN, sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+h2 {
+	font-family:  "Din Condensed Bold", DIN, sans-serif;
+	color: black;
+}
+
+h3 {
+	font-family:  "Andale Mono", Andale, sans-serif;
+}
+
+h3 li {
+	//text-decoration: underline;
+	color: #2AC9DE;
+}
+
+header a {
+	background-color: #ABBCFF;
+	color: white;
+	padding: 0.1em;
+	border-style: solid;
+	border-color: #2AC9DE;
+}
+
+header a:hover{ 
+	color: #2AC9DE;	
+}
+.HomeScreen {
+	width: 100%;
+	margin-right: 5em;
+}
+
+.Text {
+	text-align: center;
+}
+
+.Text p {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+}
+
+.Image {
+	position: absolute;
+	top: -.1em;
+	right: -1em;
+	z-index: -10;
+}
+
+.Image img{
+	height: 10%;
+}
+
+.Course {
+	cursor: hand;
+	font-size: 0.75em;
+	margin-right: 0em;
+}
+
+.Eval {
+	display: none;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: left;
+	font-family: "Avenir Next", Avenir, sans-serif;
+	font-size: 1.25em;
+	padding-bottom: 1em;
+}
+
+.Game {
+	text-align: left;
+	margin-left: 0;
+	padding-left: 0;
+	float: left;
+}
+.GameBox {
+	width: 49%;
+	background-color: teal;
+	float: left;
+	border-style: solid;
+	text-align: center;
+}
+
+.GameBox img{
+	border-left: 0;
+	margin-left: 0;
+	margin-right: auto;
+	width: 50%;
+	height: 33%;
+	display: none;
+}
+
+.GameBox h1 {
+	font-weight: 600;
+	font-size: 3em;
+	float: left;
+	text-align: center;
+}
+
+.GameBox h2 {
+	text-align: center;
+	display: none;
+
+}
+
+.GameBox h3 {
+	margin-left: 15em;
+	margin-right: 15em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	cursor: hand;
+	text-align: center;
+	background: #4ac1d3;
+	border-style: solid;
+}
+
+.GameBox p {
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: justify;
+}
+
+.GameBox #Logo {
+	height: 10%;
+	width: auto;
+	float: left;
+	display: inline;
+	padding-left: 1.75em;
+	padding-right: 3em;
+	padding-top: 0.5em;
+}
+
+.GameBox h1{
+	width: 6em;
+}
+.GameBox  iframe {
+	margin-left: 4.75em;
+	padding-bottom: 3em;
+	display: none;
+}
+
+.GameBox #Toggled {
+	border: solid;
+	color: black;
+}
+
+.Spacer {
+	width: 100%;
+	height: 2em;
+}
+#ScrollBar {
+	top: 1em;
+	z-index: 10;
+	position: fixed;
+	background: #ABBCFF;
+	width: 1em;
+	opacity: 10%;
+}
+
+#ScrollBar h1 {
+	font-size: 1.5em;
+	padding-left: 1em;
+}
+#Center {
+	text-align: center;
+}
+
+.GameBox #Logo {
+	margin-left: 0;
+}
+
+#Logo {
+	margin-left: 35%;
+	height: 10%;
+	float: left
+}
+
+#BackLink {
+	text-align: right;
+	margin-right: 0.9em;
+	font-size: 2em;
+	
+}
+
+#Backlink a{
+	background-color: #ABBCFF;
+	color: white;
+	padding: 0.25em;
+	border-style: solid;
+	border-color: #2AC9DE;
+}
+
+#BackLink a:hover{ 
+	color: #2AC9DE;	
+}

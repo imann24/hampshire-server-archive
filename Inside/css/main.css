@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-family: balthasarTitle;
+	letter-spacing: 0.1em;
+	font-size: 3em;
+}
+
+#navBar h1 {
+	float: left;
+	margin: 0 0.25em;
+}
+
+td {
+	font-family: balthasarRegular;
+	letter-spacing: 0.025em;
+	font-size: 3em;
+    padding: 15px;
+}
+
+table {
+	border-spacing: 5px;
+}
+
+a {
+	color: purple;
+}
+
+a:visited {
+	color: grey;
+}
+
+#creditBox {
+	padding-top: 10em;
+	width: 800px;
+	margin: auto;
+}
+
+#navBar {
+	width: 95%;
+	padding-left: 10%;
+	margin: auto;
+}
+
+#currentPage a {
+	color: white;
+}
+
+#trailer {
+	width: 840px;
+	margin: auto;
+}
+
+@font-face {
+    font-family: balthasarRegular;
+    src: url(../fonts/Balthasar/BALRG_0.ttf);
+}
+
+@font-face {
+    font-family: balthasarTitle;
+
+    src: url(../fonts/Balthasar/BALTT_0.ttf);
+}

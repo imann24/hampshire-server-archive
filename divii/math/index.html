@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mathematics</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="../js/main.js"></script>
+        <link type = "text/css" href="../css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <a href ="../"><div class = "button" id = "back-button"></div></a>
+        <div class ="fullscreen-panel" id = "linear" onclick="popOut('linear')">  
+            <h2><br>Linear Algebra</h2>
+            <p>
+                Linear Algebra challenged my thinking about dimensions, vectors, and matrices. 
+                Overtime, I was able to see the applications to computer science in animation,
+                3D simulations, and graphics. Having taken the course, I'm able to apply these abstract
+                concepts surrounding matrices to my work engineering in games and algorithms.
+            </p>
+            <embed src="../assets/assignments/linear.pdf" width="900" height="900" type='application/pdf'>
+
+        </div>
+        <div class ="fullscreen-panel" id = "calculus" onclick="popOut('calculus')">
+            <h2><u>Mathematics</u><br>
+                Calculus in Context (Calculus I )
+            </h2>
+            <p>
+                Calculus describes the nature of change and growth mathematically.
+                It is able to model a variety of real world applications.
+                The most direct link I found in computer science was another
+                abstract one: asymptotic analysis of algorithms. Having taken courses
+                in both, the concept of derivatives seems increasingly crucial.
+            </p>
+            <embed src="../assets/assignments/calculus.pdf" width="900" height="900" type='application/pdf'>
+        </div>
+        <div class ="fullscreen-panel" id = "discrete" onclick="popOut('discrete')">
+            <h2><br>Discrete Mathematics</h2>
+            <p>
+                Discrete Math was laid the
+                groundwork for many computer science concepts I later encounterd.
+                It focused on number and graph theory. Number theory is
+                applicable to runtime complexity analysis. Graph theory
+                mirrors the abstract graph data structure in computer science; the parallels
+                between math and computer science are boundless in this area.
+            </p>
+            <embed src="../assets/assignments/discrete.pdf" width="900" height="900" type='application/pdf'>
+        </div>
+    </body>
+</html>
